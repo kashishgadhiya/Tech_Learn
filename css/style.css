@@ -1,0 +1,204 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-nav-item:hover{
+    background-color:orange;
+    border: 2px solid orange;
+    border-radius:10px ;
+    color: white;
+    padding-left: 5px;
+    
+
+
+}
+.navbar-height{
+    height: 10vh;
+}
+.custom-nav-item{
+    color: black;
+    font-weight: 500;
+}
+.bg-img img{
+    height: 70vh;
+}
+.hero{
+    
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.head-hero{
+    width: 50%;
+    /* background-color: aqua; */
+    padding-left: 50px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(223, 160, 43);
+    font-weight: 700;
+    font-size: 35px;
+}
+.line{
+    display: flex;
+    margin-top: 25px;
+    padding-left: 70px; 
+    padding-right: 70px;
+    gap: 190px;
+    height: 10vh;
+    background-color: orange;
+    color: rgb(247, 231, 201);
+}
+
+.same{
+    display: flex;
+    align-items: center;
+   
+    gap: 10px;
+}
+
+@media screen and (min-width:0px) and (max-width:700px){
+    .line{
+        display: none;
+    }
+    .hero{
+        display: grid;
+        
+    }
+    .head-hero{
+        margin: auto;
+        font-size: 15px;
+    }
+    .bg-img{
+        margin: auto;
+    }
+    .bg-img img{
+        height: 50vh;
+        
+
+    }
+    .navbar-header{
+        display: none;
+    }
+    .custom-nav .custom-nav-item{
+        padding: 10px 20px;
+        background-color: orange;
+        color: aliceblue !important;
+    }
+    .custom-nav-item a:hover{
+        background-color: none;
+    }
+    .card-hide{
+        display:none;
+    }
+    .card-item{
+    
+        grid-template-columns: auto;
+        
+    }
+}
+
+/* cards */
+.cards-page{
+    margin-top: 15px;
+}
+.cards{
+
+    margin:50px;
+}
+.card-item{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    gap: 40px 50px;
+}
+.card-h1{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.card-span{
+    text-decoration: line-through;
+}
+
+.card-pricediv{
+    display: flex;
+    align-items: center;
+   gap: 100px;
+}
+.card-pricediv a {
+    flex-direction: flex-end;
+
+}
+.card-btn{
+    float: right;
+}
+.card-span-bold{
+    font-weight: 700;
+    color: black;
+    
+}
+.card-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-course-btn{
+    margin-top: 15px;
+}
+
+/* contact */
+.contact{
+    margin:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contact-form{
+    width: 70%;
+}
+.contact-address{
+   width: 40vh;
+    height: 30vh;
+   background-color: orange;
+   background-image: linear-gradient(rgb(219, 28, 28), orange);
+}
+
+.contact-address{
+    background-color: orange;
+    color: rgb(250, 247, 243);
+    padding: 10px;
+    transform: rotate(15deg);
+    
+}
+.contact-address h5{
+    padding-top: 10px;
+    font-weight: 1000;
+    text-align: center;
+}
+.address-p{
+   
+    color: antiquewhite;
+    font: 500;
+
+}
+
+
+/* footer */
+
+.footer-div-copy{
+    display: flex;
+    margin-top: 25px;
+    
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: orange;
+    color: rgb(247, 231, 201);
+} 
